@@ -1,0 +1,195 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    color: #01EBFA;
+}
+.Header{
+    padding:10px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo:hover{
+    transform: scale(1.2)
+}
+.App-header{
+    display: flex;
+    flex-direction: row;
+}
+.App-header p{
+    margin: 10px;
+    padding: 10px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+.Body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.about {
+display: flex;
+align-items: center;
+justify-content: center;
+font-family: 'Ubuntu', sans-serif;
+text-align: center;
+padding: 10px;
+font-weight: 500;
+font-size: 45px;
+color: #01EBFA;
+text-shadow: 2px 2px 0px #ff0000;
+}
+.Explo{
+    width: 200px;
+    height: 200px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 100px;
+    color: rgba(255,255,255,0.9);
+    border-radius: 50%;
+    background: linear-gradient(-45deg, #FFA63D, #FF3D77, #338AFF, #3CF0C5);
+    background-size: 600%;
+    animation: anime 16s linear infinite;
+    position: absolute;
+     margin-top: -70px;
+     z-index: -1;
+     filter: blur(100px);
+     opacity: 0.8;
+}
+.Explor{
+    width: 250px;
+    height: 250px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 100px;
+    color: rgba(255,255,255,0.9);
+    border-radius: 50%;
+    background: linear-gradient(-45deg, #FFA63D, #FF3D77, #338AFF, #3CF0C5);
+    background-size: 600%;
+    animation: anime 16s linear infinite;
+    position: absolute;
+     margin-left: 600px;
+     z-index: -1;
+     filter: blur(100px);
+     opacity: 0.8;
+}
+.Explore{
+    width: 250px;
+    height: 250px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 100px;
+    color: rgba(255,255,255,0.9);
+    border-radius: 50%;
+    background: linear-gradient(-45deg, #FFA63D, #FF3D77, #338AFF, #3CF0C5);
+    background-size: 600%;
+    animation: anime 16s linear infinite;
+    position: absolute;
+     margin-left: 600px;
+     margin-top: 100px;
+     z-index: -1;
+     filter: blur(100px);
+     opacity: 0.8;
+}
+@keyframes anime{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+} 
+.globe{
+    cursor: pointer;
+}
+.glass{
+    display: flex;
+    height: 300px;
+    width: 50%;
+    border: 1px solid black;
+    z-index: 999;
+    background: rgba(255, 255, 255, 0.19);
+border-radius: 50px;
+box-shadow: 0px 0px 20px 0px white;
+backdrop-filter: blur(0px);
+-webkit-backdrop-filter: blur(0px);
+border: 0px solid rgba(255, 255, 255, 0.14);
+position: relative;
+bottom: 350px;
+
+}
+.about-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 37px;
+    display: flex;
+    color: yellow;
+    text-shadow: 3px 3px 0px orangered;
+    z-index:9999;
+    }
+
+.next{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top:50px;
+    left: 50px;
+    padding: 10px;
+    border-radius: 30px;
+    width: 250px;
+    height: 60px;
+    font-family: 'Ubuntu', sans-serif;
+    cursor:pointer;
+    font-weight: bold;
+    font-size: 30px;
+    color: greenyellow;
+    text-shadow: 3px 3px 0px green;
+    background-color: transparent;
+    box-shadow: 0px 0px 20px 0px white;
+backdrop-filter: blur(10px);
+-webkit-backdrop-filter: blur(10px);
+border: 5px double #3CF0C5;
+}
+.desc{
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    color: #FFA63D;
+}
+.rocket{
+    width: 200px;
+    height: 200px;
+    z-index:99999;
+    position: absolute;
+    display: flex;
+}
+.galaxy{
+    width: 100px;
+    height: 100px;
+    z-index:99999;
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 600px;
+    display: flex;
+}
+
+.down{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:relative;
+    bottom: 150px;
+}

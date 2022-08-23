@@ -1,0 +1,23 @@
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Explo{
+    width: 200px;
+    height: 200px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 100px;
+    color: rgba(255,255,255,0.9);
+    border-radius: 50%;
+    background: linear-gradient(-45deg, #FFA63D, #FF3D77, #338AFF, #3CF0C5);
+    background-size: 600%;
+    animation: anime 16s linear infinite;
+    position: absolute;
+     margin-bottom: 270px;
+     margin-right: 650px;
+     z-index: -1;
+     filter: blur(100px);
+     opacity: 0.8;
+}
